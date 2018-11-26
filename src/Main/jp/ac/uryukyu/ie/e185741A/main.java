@@ -5,7 +5,7 @@ public class main {
         System.out.println("開始します");
         try{
             String[] str = null;
-            System.out.println(str.length);
+            System.out.println(str);
         }
         catch(NullPointerException e){
             System.out.println("配列の範囲を超えています");
